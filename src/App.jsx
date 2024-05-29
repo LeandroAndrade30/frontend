@@ -2,9 +2,12 @@ import './App.css'
 
 function App() {
 
+  let nome= "Leandro";
+  let sobrenome ="de Oliveira Andrade";
+
   return (
     <>
-      <h1>Leandro de Oliveira Andrade</h1>
+      <h1>{`meu nome é ${nome} ${sobrenome}`}</h1>
     </>
   )
 }
